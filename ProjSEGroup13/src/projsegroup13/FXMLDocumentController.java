@@ -32,7 +32,7 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("sono gianluca");
         System.out.println("e io so Antoni Giorg");
         
-        
+        System.out.println("Luca Gre");
         
         System.out.println("il mio pepone piccolo");
     }
