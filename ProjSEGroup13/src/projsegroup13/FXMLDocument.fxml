@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="835.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="projsegroup13.FXMLDocumentController">
+   <children>
+      <TabPane prefHeight="98.0" prefWidth="835.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="File   ">
+               <content>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0" vbarPolicy="NEVER">
+                     <content>
+                        <HBox prefHeight="70.0" prefWidth="834.0" />
+                     </content>
+                  </ScrollPane>
+               </content>
+          </Tab>
+          <Tab text="Draw     ">
+               <content>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0" vbarPolicy="NEVER">
+                     <content>
+                        <HBox prefHeight="55.0" prefWidth="834.0" spacing="7.0" style="-fx-background-color: #5A7A92;">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" stylesheets="@Style.css" text="╱">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" stylesheets="@Style.css" text="⬭">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton minHeight="44.0" mnemonicParsing="false" prefWidth="44.0" stylesheets="@Style.css" text="▭">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton minHeight="44.0" mnemonicParsing="false" prefWidth="44.0" stylesheets="@Style.css" text="⭔">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ColorPicker prefHeight="30.0" prefWidth="50.0">
+                                 <HBox.margin>
+                                    <Insets left="30.0" top="8.0" />
+                                 </HBox.margin>
+                              </ColorPicker>
+                              <ColorPicker prefHeight="30.0" prefWidth="50.0">
+                                 <HBox.margin>
+                                    <Insets top="8.0" />
+                                 </HBox.margin>
+                              </ColorPicker>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="10.0" top="4.0" />
+                           </padding>
+                        </HBox>
+                     </content>
+                  </ScrollPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

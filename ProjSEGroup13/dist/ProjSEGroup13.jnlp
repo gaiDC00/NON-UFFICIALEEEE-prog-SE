@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjSEGroup13.jnlp">
+  <information>
+    <title>ProjSEGroup13</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjSEGroup13.jar" size="3534" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="projsegroup13.ProjSEGroup13"  name="ProjSEGroup13" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,48 @@
+.button{
+  -fx-background-color: #009999009999009;
+  -fx-text-fill: white;
+  -fx-background-radius: 10px; 
+  -fx-color: #FFFFFF;
+  -fx-font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -fx-font-size: 15px;
+  -fx-font-weight: 500;
+  -fx-padding: 10px 10px;
+  -fx-position: relative;
+  -fx-text-align: center;
+  -fx-transition: color 100ms;
+  -fx-font-weight: bold; 
+}
+
+.button:hover,
+.button:focus {
+  -fx-background-color: #70D1D1;
+}
+
+
+.toggle-button{
+  -fx-background-color: #5A7A92;
+  -fx-border-color: white;
+  -fx-border-width: 2px;
+  -fx-text-fill: white;
+  -fx-border-radius: 10px; 
+  -fx-background-radius: 10px; 
+  -fx-color: #FFFFFF;
+  -fx-font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -fx-font-weight: 500;
+  -fx-position: relative;
+  -fx-text-align: center;
+  -fx-transition: color 100ms;
+  -fx-font-weight: bold; 
+  -fx-box-sizing: border-box;
+}
+
+.toggle-button:after{
+     -fx-visibility: visible;
+}
+
+
+.toggle-button:hover,
+.toggle-button:focus {
+  -fx-background-color: #002626
+}
+
