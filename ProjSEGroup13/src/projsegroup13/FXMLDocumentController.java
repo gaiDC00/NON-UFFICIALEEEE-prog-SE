@@ -27,6 +27,7 @@ public class FXMLDocumentController implements Initializable {
         label.setText("Hello World!");
         
         System.out.println("ciaone");
+        System.out.println("kie");
         
     }
     
