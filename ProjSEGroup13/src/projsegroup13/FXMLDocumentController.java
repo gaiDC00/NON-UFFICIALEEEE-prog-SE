@@ -25,7 +25,9 @@ public class FXMLDocumentController implements Initializable {
     private void handleButtonAction(ActionEvent event) {
         System.out.println("Gaia");
         label.setText("Hello World!");
+        
         System.out.println("ciaone");
+        
     }
     
     @Override
