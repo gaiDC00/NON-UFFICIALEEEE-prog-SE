@@ -30,6 +30,7 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("ciaone");
         System.out.println("kie");
         System.out.println("sono gianluca");
+        System.out.println("e io so Antoni Giorg");
         
     }
     
