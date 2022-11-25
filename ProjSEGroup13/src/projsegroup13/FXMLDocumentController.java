@@ -10,7 +10,12 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ColorPicker;
 import javafx.scene.control.Label;
+import javafx.scene.control.Tab;
+import javafx.scene.control.ToggleButton;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
 
 /**
  *
@@ -18,28 +23,45 @@ import javafx.scene.control.Label;
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML
-    private Label label;
     
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("Gaia");
-        System.out.println("sono nicola");
-        label.setText("Hello from San Pietro al Tanagro!");
-        
-        System.out.println("ciaone");
-        System.out.println("kie");
-        System.out.println("sono gianluca");
-        System.out.println("e io so Antoni Giorg");
-        
-        System.out.println("Luca Gre");
-        
-        System.out.println("il mio pepone piccolo");
-    }
+    private Tab drawTab;
+    @FXML
+    private ToggleButton lineToggle;
+    @FXML
+    private ToggleButton ellipseToggle;
+    @FXML
+    private ToggleButton rectangleToggle;
+    @FXML
+    private ColorPicker strokeColPick;
+    @FXML
+    private ColorPicker fillColPick;
+    @FXML
+    private Pane pane;
+    
+    private Tool tool;
+ 
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void lineToggleAction(ActionEvent event) {
+    }
+
+    @FXML
+    private void ellipseToggleAction(ActionEvent event) {
+    }
+
+    @FXML
+    private void rectangleToggleAction(ActionEvent event) {
+    }
+
+    @FXML
+    private void paneClick(MouseEvent event) {
+        tool.action(event, pane);
+    }
     
 }
